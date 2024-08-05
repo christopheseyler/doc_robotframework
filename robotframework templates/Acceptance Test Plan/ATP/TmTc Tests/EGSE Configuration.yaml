@@ -1,0 +1,12 @@
+TmTc:
+  port="COM4"
+  timeout=2s
+
+Power Supply:
+  url="http://toto.com/settings"
+
+Event Log Debug Port:
+  enabled=true
+  port="COM1"
+
+

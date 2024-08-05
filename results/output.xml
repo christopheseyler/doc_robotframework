@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.0 on win32)" generated="2024-08-02T09:33:11.259831" rpa="false" schemaversion="5">
+<suite id="s1" name="Doc Robotframework" source="D:\github\documentation\doc_robotframework">
+<suite id="s1-s1" name="Doc" source="D:\github\documentation\doc_robotframework\Doc">
+<suite id="s1-s1-s1" name="Tags &amp; Metadata" source="D:\github\documentation\doc_robotframework\Doc\Tags &amp; Metadata">
+<suite id="s1-s1-s1-s1" name="Examples" source="D:\github\documentation\doc_robotframework\Doc\Tags &amp; Metadata\examples">
+<suite id="s1-s1-s1-s1-s1" name="Tags" source="D:\github\documentation\doc_robotframework\Doc\Tags &amp; Metadata\examples\tags.robot">
+<test id="s1-s1-s1-s1-s1-t1" name="My Test" line="12">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-08-02T09:33:11.289383" level="INFO">Basic test with tags</msg>
+<arg>Basic test with tags</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-08-02T09:33:11.289383" elapsed="0.000000"/>
+</kw>
+<tag>AnotherTagDefinedInSettings</tag>
+<tag>TagDefinedInSettings</tag>
+<tag>TagDefinedInTest</tag>
+<status status="PASS" start="2024-08-02T09:33:11.288383" elapsed="0.001000"/>
+</test>
+<status status="PASS" start="2024-08-02T09:33:11.285383" elapsed="0.005505"/>
+</suite>
+<status status="PASS" start="2024-08-02T09:33:11.283378" elapsed="0.008013"/>
+</suite>
+<status status="PASS" start="2024-08-02T09:33:11.282378" elapsed="0.011020"/>
+</suite>
+<status status="PASS" start="2024-08-02T09:33:11.279865" elapsed="0.014540"/>
+</suite>
+<status status="PASS" start="2024-08-02T09:33:11.263338" elapsed="0.032066"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">AnotherTagDefinedInSettings</stat>
+<stat pass="1" fail="0" skip="0">TagDefinedInSettings</stat>
+<stat pass="1" fail="0" skip="0">TagDefinedInTest</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Doc Robotframework">Doc Robotframework</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Doc">Doc Robotframework.Doc</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Tags &amp; Metadata">Doc Robotframework.Doc.Tags &amp; Metadata</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1-s1" name="Examples">Doc Robotframework.Doc.Tags &amp; Metadata.Examples</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1-s1-s1" name="Tags">Doc Robotframework.Doc.Tags &amp; Metadata.Examples.Tags</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
